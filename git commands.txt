@@ -1,0 +1,28 @@
+git commands 
+git init [repository name] :- This command is used to start a new repository.
+git status       		   :- show the status of git repository
+git clone        		   :- This command is used to obtain a repository from an existing URL.
+git add --a/.    		   :- This command adds a file to the staging area.
+git config       		   :- This command sets the author name and email address respectively to be used with your commits.
+git config –global user.name “[name]”
+git config –global user.email “[email address]”
+git commit -m     		   :- This command records or snapshots the file permanently in the version history.
+git commit -a			   :- This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+git diff         		   :- This command shows the file differences which are not yet staged.
+git diff –staged 		   :- This command shows the differences between the files in the staging area and the latest version present.
+git diff [first branch] [second branch] :- This command shows the differences between the two branches mentioned.
+git reset [file]		   :- This command unstages the file, but it preserves the file contents.
+git reset [commit]		   :- This command undoes all the commits after the specified commit and preserves the changes locally.
+git reset –hard [commit]   :- This command discards all history and goes back to the specified commit.
+git status				   :- This command lists all the files that have to be committed.
+git rm [file]			   :- This command deletes the file from your working directory and stages the deletion.
+git log					   :- This command is used to list the version history for the current branch.
+git log –follow[file] 	   :- This command lists version history for a file, including the renaming of files also.
+git show [commit]		   :- This command shows the metadata and content changes of the specified commit.
+git tag [commitID]		   :- This command is used to give tags to the specified commit.
+git log --pretty=oneline   :- this show every commit in one line.
+git log --since=2.days     :- this show all the commits happend in 2 days
+git log --pretty=format:"%h --%an" :- this show the has key and author name.
+
+
+
